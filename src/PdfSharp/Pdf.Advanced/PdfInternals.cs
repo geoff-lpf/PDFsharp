@@ -79,7 +79,7 @@ namespace PdfSharp.Pdf.Advanced
         /// </summary>
         public Guid SecondDocumentGuid
         {
-            get { return GuidFromString(_document._trailer.GetDocumentID(0)); }
+            get { return GuidFromString(_document._trailer.GetDocumentID(1)); }
         }
 
         Guid GuidFromString(string id)
